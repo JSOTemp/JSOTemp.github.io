@@ -1,0 +1,4 @@
+Sitemap: https://jsotemp.netlify.app/previews/PR2/sitemap.xml
+
+User-agent: *
+Disallow:
