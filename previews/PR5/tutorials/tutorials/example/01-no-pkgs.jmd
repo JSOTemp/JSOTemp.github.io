@@ -1,0 +1,19 @@
+>> Weaving 01-no-pkgs.jmd in tutorials/example
+      Status `~/work/JSOTutorials.jl/JSOTutorials.jl/tutorials/example/Project.toml` (empty project)
+Building Github Markdown
+@def title = "Example 01 - No pkgs"
+@def showall = true
+@def tags = []
+
+\preamble{Abel Soares Siqueira}
+
+
+This is a simple example.
+
+
+$$f(x) = x^2 - 5x + 6$$
+
+```julia
+f(x) = x^2 - 5x + 6
+f.(0.0:0.5:4.0)
+```
