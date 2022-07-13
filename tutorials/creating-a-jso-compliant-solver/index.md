@@ -99,9 +99,9 @@ f.GradientConfig{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#3#4", Float64
 291.var"#3#4", Float64}, Float64, 2}}}((Partials(1.0, 0.0), Partials(0.0, 1
 .0)), ForwardDiff.Dual{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#3#4", F
 loat64}, Float64, 2}[Dual{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#3#4"
-, Float64}}(0.0,6.95206026573646e-310,6.95206025708912e-310), Dual{ForwardD
-iff.Tag{Main.##WeaveSandBox#291.var"#3#4", Float64}}(0.0,6.95206026573646e-
-310,6.95206025708912e-310)]))
+, Float64}}(0.0,6.9433695961714e-310,6.94336958752405e-310), Dual{ForwardDi
+ff.Tag{Main.##WeaveSandBox#291.var"#3#4", Float64}}(0.0,6.94332055460827e-3
+10,6.9433205546557e-310)]))
   Problem name: Generic
    All variables: ████████████████████ 2      All constraints: ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
 ⋅⋅⋅⋅⋅⋅⋅⋅ 0     
@@ -288,8 +288,8 @@ d = factor \ -grad(nlp, x)
 
 ```
 2-element Vector{Float64}:
-  0.4867256637168144
- -0.7281415929203545
+  0.48672566371681447
+ -0.7281415929203547
 ```
 
 
@@ -632,7 +632,7 @@ Generic Execution stats
   dual feasibility: 4.018046284781729e-9
   solution: [0.9999999986742657  0.9999999970013461]
   iterations: 18
-  elapsed time: 7.295608520507812e-5
+  elapsed time: 5.0067901611328125e-5
 ```
 
 
@@ -703,10 +703,10 @@ pretty_stats(stats[:newton][!, cols])
 ┌─────────┬─────────────┬───────────┬──────────────┬────────┐
 │    name │      status │ objective │ elapsed_time │   iter │
 ├─────────┼─────────────┼───────────┼──────────────┼────────┤
-│ Generic │ first_order │  2.47e-31 │     5.62e-01 │      1 │
-│ Generic │ first_order │  3.74e-21 │     6.73e-01 │     21 │
-│ Generic │    max_iter │ -8.36e+00 │     5.62e-01 │    100 │
-│ Generic │ first_order │  1.43e+00 │     6.10e-01 │      5 │
+│ Generic │ first_order │  2.47e-31 │     4.52e-01 │      1 │
+│ Generic │ first_order │  3.74e-21 │     5.12e-01 │     21 │
+│ Generic │    max_iter │ -8.36e+00 │     4.43e-01 │    100 │
+│ Generic │ first_order │  1.43e+00 │     4.97e-01 │      5 │
 └─────────┴─────────────┴───────────┴──────────────┴────────┘
 ```
 
