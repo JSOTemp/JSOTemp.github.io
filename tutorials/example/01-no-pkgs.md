@@ -1,7 +1,9 @@
----
-author: "Abel Soares Siqueira"
-title: "Example 01 - No pkgs"
----
+@def title = "Example 01 - No pkgs
+@def showall = true
+@def tags = "["example"]
+
+\preamble{Abel Soares Siqueira}
+
 
 
 This is a simple example.
