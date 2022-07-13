@@ -1,6 +1,6 @@
 @def title = "Example 01 - No pkgs"
 @def showall = true
-@def tags = "["example"]
+@def tags = ["example"]
 
 \preamble{Abel Soares Siqueira}
 
