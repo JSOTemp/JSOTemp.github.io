@@ -44,9 +44,9 @@ f.GradientConfig{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#1#3", Float64
 291.var"#1#3", Float64}, Float64, 2}}}((Partials(1.0, 0.0), Partials(0.0, 1
 .0)), ForwardDiff.Dual{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#1#3", F
 loat64}, Float64, 2}[Dual{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#1#3"
-, Float64}}(6.93684204041936e-310,6.93684204042094e-310,6.9368420404241e-31
-0), Dual{ForwardDiff.Tag{Main.##WeaveSandBox#291.var"#1#3", Float64}}(6.936
-8420404257e-310,6.93684204046046e-310,6.93684204046837e-310)]))
+, Float64}}(0.0,6.8996645345444e-310,6.89966452589705e-310), Dual{ForwardDi
+ff.Tag{Main.##WeaveSandBox#291.var"#1#3", Float64}}(0.0,6.89966452686384e-3
+10,6.89966452686384e-310)]))
   Problem name: Generic
    All variables: ████████████████████ 2      All constraints: ████████████
 ████████ 1     
@@ -168,8 +168,8 @@ Number of inequality constraint evaluations          = 8
 Number of equality constraint Jacobian evaluations   = 0
 Number of inequality constraint Jacobian evaluations = 8
 Number of Lagrangian Hessian evaluations             = 7
-Total CPU secs in IPOPT (w/o function evaluations)   =      3.558
-Total CPU secs in NLP function evaluations           =      1.455
+Total CPU secs in IPOPT (w/o function evaluations)   =      2.962
+Total CPU secs in NLP function evaluations           =      1.209
 
 EXIT: Optimal Solution Found.
 "Execution stats: first-order stationary"
@@ -211,9 +211,9 @@ Generic Execution stats
   multipliers_L: [0.0  4.000000006828642]
   multipliers_U: [5.000000053347668  5.0084053323090786e-9]
   iterations: 7
-  elapsed time: 0.005
+  elapsed time: 0.004
   solver specific:
-    real_time: 0.005313873291015625
+    real_time: 0.004782915115356445
     internal_msg: :Solve_Succeeded
 ```
 
