@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>tutorials/introduction-to-quadraticmodels/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>ecosystems/solvers/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>tutorials/create-a-manual-model/index.html</loc>
     <lastmod>2022-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -15,6 +27,12 @@
 </url>
 <url>
     <loc>404/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>tutorials/introduction-to-ripqp/index.html</loc>
     <lastmod>2022-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,6 +56,18 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>tutorials/introduction-to-linear-operators/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>tutorials/introduction-to-cutest/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>tutorials/forwarddiff/forwarddiff/index.html</loc>
     <lastmod>2022-07-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -56,6 +86,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>tutorials/introduction-to-benchmarkprofiles/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>references/index.html</loc>
     <lastmod>2022-07-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -69,6 +105,12 @@
 </url>
 <url>
     <loc>tutorials/example/02-plots/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>tutorials/solve-an-optimization-problem-with-ipopt/index.html</loc>
     <lastmod>2022-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -99,6 +141,12 @@
 </url>
 <url>
     <loc>contributing/index.html</loc>
+    <lastmod>2022-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>tutorials/creating-a-jso-compliant-solver/index.html</loc>
     <lastmod>2022-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
