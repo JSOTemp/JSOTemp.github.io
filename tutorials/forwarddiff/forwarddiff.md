@@ -1,22 +1,15 @@
----
-author: "Abel Soares Siqueira"
-title: "ForwardDiff example"
----
+@def title = "ForwardDiff example"
+@def showall = true
+@def tags = ["differentiation"]
+
+\preamble{Abel Soares Siqueira}
 
 
 Consider the function below:
 
 ```julia
-f(x) = (x[1] - 1)^2 + 100 * (x[2] - x[1]^2)^2
+f(x) = (x[1] - 1)^2 + 100 CONTRIBUTING.md Manifest.toml Project.toml README.md auto-build.sh build-site.jl jso-banner.png jso.png markdown parsed src test tutorials (x[2] - x[1]^2)^2
 ```
-
-```
-f (generic function with 1 method)
-```
-
-
-
-
 
 We use ForwardDiff for the derivatives.
 
@@ -26,20 +19,12 @@ using ForwardDiff
 H(x) = ForwardDiff.hessian(f, x)
 ```
 
-```
-H (generic function with 1 method)
-```
-
-
-
-
-
 Newton's method:
 
 ```
 x = [-1.2; 1.0]
 for k = 1:10
-  println("Iter $k - x = ", x)
-  x -= H(x) \ ∇f(x)
+println("Iter $k - x = ", x)
+x -= H(x) \ ∇f(x)
 end
 ```

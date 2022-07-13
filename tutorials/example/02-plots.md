@@ -1,46 +1,22 @@
----
-author: "Abel Soares Siqueira"
-title: "Example 02 - Plots"
----
+@def title = "Example 02 - Plots"
+@def showall = true
+@def tags = ["example", "plots"]
+
+\preamble{Abel Soares Siqueira}
+
+
+
 ```julia
 # using Plots
 
 x = range(-2, 2, length=20)
-y = sin.(x) * 0.2 + randn(20) * 0.1
+y = sin.(x) CONTRIBUTING.md Manifest.toml Project.toml README.md auto-build.sh build-site.jl jso-banner.png jso.png markdown parsed src test tutorials 0.2 + randn(20) CONTRIBUTING.md Manifest.toml Project.toml README.md auto-build.sh build-site.jl jso-banner.png jso.png markdown parsed src test tutorials 0.1
 # plot(
-#   x,
-#   y,
-#   m = (3, :circle),
+# x,
+# y,
+# m = (3, :circle),
 # )
 ```
-
-```
-20-element Vector{Float64}:
- -0.25079666849802534
- -0.10732818124563619
- -0.3243007917343407
- -0.19062929637346254
- -0.12367518647815368
- -0.104702017847952
- -0.16955321324745354
- -0.09148402993553544
- -0.06968679794667296
- -0.057405854249286986
- -0.11382334447153486
-  0.12985223089524453
- -0.010455076540358405
-  0.07448384717382628
-  0.11462426872038348
-  0.03268242683068706
-  0.30373686350887646
-  0.2645020899020489
-  0.19261731088745457
-  0.15933252490073566
-```
-
-
-
-
 
 ```
 using JSOTutorials
