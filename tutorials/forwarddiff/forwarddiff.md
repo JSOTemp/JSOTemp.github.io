@@ -1,6 +1,6 @@
 @def title = "ForwardDiff example"
 @def showall = true
-@def tags = "["differentiation"]
+@def tags = ["differentiation"]
 
 \preamble{Abel Soares Siqueira}
 
