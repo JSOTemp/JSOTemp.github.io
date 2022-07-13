@@ -1,4 +1,4 @@
-@def title = "Example 01 - No pkgs
+@def title = "Example 01 - No pkgs"
 @def showall = true
 @def tags = "["example"]
 

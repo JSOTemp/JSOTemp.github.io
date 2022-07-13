@@ -1,4 +1,4 @@
-@def title = "ForwardDiff example
+@def title = "ForwardDiff example"
 @def showall = true
 @def tags = "["differentiation"]
 
